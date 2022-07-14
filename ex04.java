@@ -1,4 +1,6 @@
 import java.util.Random;
+import java.util.Scanner;
+
 
 public class ex04
 {
@@ -8,12 +10,25 @@ public class ex04
 	String[] head = {"Heads","Tails"};
 
 	Random ran = new Random();
+
+
+	Scanner sc = new Scanner(System.in);
 	
 	int value;
 	value = 0;
 
 
+	System.out.println("Who are you?");
+	System.out.print(">");
+
+
+	String NAME = sc.nextLine();
+
+
+	System.out.println("Hello, " + NAME + "!");
+
 	System.out.println("Tossing a coin...");
+	
 	int x;
 	
 	
