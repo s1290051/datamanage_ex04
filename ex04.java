@@ -50,6 +50,7 @@ public class ex04
 	int number;
 	number = 3-value;
 
+<<<<<<< HEAD
 
 
 
@@ -61,3 +62,12 @@ public class ex04
 
 	if(value < number)
 	    {System.out.println(NAME + " lost.");}}}
+=======
+	System.out.println("Heads:" + value + ", Tails:" + number);
+
+if(value > number)
+    {System.out.println(NAME + " won!");}
+
+if(value < number)
+    {System.out.println(NAME + " lost!");}}}
+>>>>>>> user_name
